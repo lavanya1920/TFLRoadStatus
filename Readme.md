@@ -1,7 +1,10 @@
 #### TFLRoadStatus Solution
 This has been developed using VS 2019, .net core 3.1
+
 TFLRoadStatus.Client :-- This is console application developed in .net core 3.1 with appsettings.json where you can update AppId and AppKey.
+
 TFLRoadStatus.API :-- Class libary to communicate with TFL Road API.
+
 TFLRoadStatus.Tests :-- Test Project developed using Moq and NUnit.
 
 #### HOW TO BUILD AND RUN THE CODE:
