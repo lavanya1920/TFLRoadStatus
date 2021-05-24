@@ -10,9 +10,9 @@ TFLRoadStatus.Tests :-- Test Project developed using Moq and NUnit.
 
 #### HOW TO BUILD AND RUN THE CODE:
 Follow these steps to clone this repo and build it.
+- Edit appsettings.json with your TFL API App ID and App Key in TFLRoadStatus.Client and appsettings.test.json in TFLRoadStatus.Tests project. But it will work without these Key and Id
 - Open TFLRoadStatus.Client project root directory
 - Copy the full path 
-- Edit appsettings.json with your TfL API App ID and App Key.
 - Open command prompt(search cmd from Start) and type command to change directory--> cd TFLRoadStatus.Client(the project path)
 - Then to build with command --> dotnet publish -r win-x86 -c Release 
 - Now change directory to exe path --> cd .\bin\Release\netcoreapp3.1\win-x86\publish (the path of TFLRoadStatus.Client.exe)
